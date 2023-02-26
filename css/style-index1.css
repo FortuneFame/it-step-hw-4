@@ -1,0 +1,56 @@
+  * {
+      text-decoration: none;
+      list-style: none;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+  }
+
+  ul,
+  li,
+  a {
+      display: block;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      color: #f2f3f3;
+  }
+
+  .menu {
+      height: 80px;
+  }
+
+  .icon {
+      position: absolute;
+      cursor: pointer;
+      width: 80px;
+      height: 80px;
+
+  }
+
+  .link {
+      padding-top: 30px;
+      padding-left: 80px;
+      padding-bottom: 30px;
+      padding-right: 80px;
+
+  }
+
+  nav {
+      background-color: #838383;
+      width: 300px;
+  }
+
+  .menu:hover {
+      background-color: #5c5c5b
+  }
+
+  .next {
+      display: block;
+      width: 300px;
+      text-align: center;
+      margin-top: 30px;
+      color: #212121;
+      font-weight: 500;
+      text-transform: uppercase;
+  }

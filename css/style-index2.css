@@ -1,0 +1,106 @@
+  * {
+      text-decoration: none;
+      list-style: none;
+      font-family: Roboto;
+      font-size: 13px;
+      color: #d0dee1;
+  }
+
+  ul,
+  li,
+  a,
+  p {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .soc {
+      display: inline;
+  }
+
+  .nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .block-nav {
+      width: 200px;
+  }
+
+  .nav-list {
+      margin-bottom: 5px;
+  }
+
+  footer {
+      background-color: #2b4c6c;
+      padding: 30px;
+  }
+
+  .soc-navigation {
+      display: flex;
+      justify-content: center;
+  }
+
+  .soc {
+      margin-right: 20px;
+      width: 30px;
+      height: 30px;
+  }
+
+  .copyright {
+      display: block;
+      border-top: 1px solid #9d9a9a;
+      font-size: 10px;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  .section-footer {
+      margin-bottom: 20px;
+  }
+
+  .link-fb {
+      background-image: url(../icon/fb_gray.png);
+      background-size: cover;
+  }
+
+  .link-fb:hover {
+      background-image: url(../icon/fb.png);
+      background-size: cover;
+  }
+
+  .link-insta {
+      background-image: url(../icon/insta_gray.png);
+      background-size: cover;
+  }
+
+  .link-insta:hover {
+      background-image: url(../icon/insta.png);
+      background-size: cover;
+  }
+
+  .link-youtube {
+      background-image: url(../icon/youtube_gray.png);
+      background-size: cover;
+  }
+
+  .link-youtube:hover {
+      background-image: url(../icon/youtube.png);
+      background-size: cover;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+      border-bottom: 1px solid #9d9a9a;
+  }
+.next{
+    display: block; 
+        text-align: center;
+        margin-top: 30px;
+        color: #212121;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+  
